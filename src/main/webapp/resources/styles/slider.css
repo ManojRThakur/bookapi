@@ -1,0 +1,96 @@
+		/*
+			Load CSS before JavaScript
+		*/
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+		*/
+		.slides_container {
+			width:930px;
+			display:none;
+		}
+
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+		.slides_container div.slide {
+			width:930px;
+			height:125px;
+			display:block;
+		}
+		
+		/*
+			Set the size of your carousel items
+		*/
+		.item {
+			float:left;
+			height:125px;
+		}
+		
+		/*
+			Optional:
+			Reset list default style
+		*/
+		.pagination {
+			list-style:none;
+			padding:0;
+			width:6%;
+			height:15px;
+			margin: 25px auto 0;
+		}
+
+		/*
+			Optional:
+			Show the current slide in the pagination
+		*/
+		.pagination .current a {
+			color:red;
+		}
+		.pagination li {
+    float: left;
+    margin: 0 1px;
+}
+.pagination li a {
+    background: url(../images/sprite-icons.png)  no-repeat;
+    background-position:-12px -367px;
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    width: 12px;
+	border:none;
+	padding:12px 2px 0;
+	outline:medium none;
+}
+.pagination li.current a {
+    background-position:-12px -353px;
+	border:none;
+}
+.pagination a:hover, .pagination .active a {
+    background-color:none;
+}
+.next, .prev {
+	background:url(../images/sprite-icons.png) no-repeat;
+    background-position:0px -383px;
+    display:block;
+    height:35px;
+    /*left:5px;
+    position:absolute;
+    top:142px;
+	z-index: 101;*/
+    width:35px;
+	margin-top:10px;
+	float:left;
+}
+.next {
+    /*left: 585px;*/
+	float:right;
+	background-position:0px -424px;
+}

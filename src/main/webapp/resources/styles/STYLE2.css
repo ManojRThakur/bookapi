@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body,html {
+	background: url(../images/H-bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+div.pagewrap {
+	min-width: 1000px;
+	min-height: 100%;
+	height: 100%;
+}
+
+div.ad {
+	background: #d8261a;
+	width: 135px;
+	height: 80px;
+	margin: 10px auto;
+}
+
+.lft-cont {
+	width: 155px;
+	float: left;
+	padding: 20px 10px;
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+}
+
+.ad-top {
+	margin-top: 10px;
+	padding-bottom: 150px;
+}
+
+.ad-top-prev {
+	margin-top: 300px;
+	padding-bottom: 150px;
+}
+.ad-bottom {
+	bottom: 10px;
+}
+
+.maincont {
+	margin: 0 auto;
+	width: 1100px;
+	overflow: hidden;
+}
+
+.maincont:after {
+	content: ".";
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
+
+.middl-cont {
+	padding: 10px;
+	margin: 20px auto;
+	float: left;
+}
+
+#disply {
+	background: rgba(0, 0, 0, 0.6);
+	width: 705px;
+	height: 500px;
+}
+#inner-disply {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background: #E4E4E4;
+	width: 675px;
+	height: 470px;
+	padding: 10 px;
+    display:inline-block;
+    overflow:scroll;
+}
+
+#thumb {
+	margin: 20px 0 0 0;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.6);
+	width: 685px;
+}
+
+.rht-cont {
+	width: 155px;
+	float: left;
+	padding: 20px 10px;
+	text-align: right;
+	font-size: 16px;
+	position: relative;
+}
